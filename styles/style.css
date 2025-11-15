@@ -316,7 +316,7 @@ main {
     box-shadow: 0 4px 12px #A9A9A9;
     width: 100%;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
        
 .form-label {
@@ -385,6 +385,14 @@ footer {
         width: 12px;
         height: 12px;
     }
+
+
+                      /*-------------contacto--------------*/
+
+    .contacto-cards {
+        grid-template-columns: repeat(2, 1fr);
+        width: 75%;
+    }
      
 }  
 
@@ -422,6 +430,17 @@ footer {
         font-size: 18px;
         padding: 4px 0;
         text-align: center;
+    }
+
+                             /*-------------contacto-----------*/
+
+    .contacto-cards {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        width: 50%;
+    }
+    .contacto h2 {
+        font-size: 1.25rem;
     }
 
 }
