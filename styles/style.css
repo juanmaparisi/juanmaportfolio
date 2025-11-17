@@ -226,6 +226,16 @@ main {
     margin-bottom: 5px;
 }
 
+.lineadetiempo-item ul ul {
+    padding-left: 20px; 
+    margin: 8px 0;
+}
+
+.lineadetiempo-item ul ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
 /*-------------------------------pagina contacto--------------------------*/
                        /*-------seccion contacto--------*/
 
