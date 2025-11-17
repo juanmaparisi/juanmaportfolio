@@ -182,12 +182,20 @@ main {
 
 /*--------------------------------pagina experiencia--------------------------*/
 
+.experiencia {
+    width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    box-shadow: 0 4px 12px #A9A9A9;
+}
+
 .titulo-exp {
     font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
 }
 
+.trayectoria,
 .habilidades-contenedor {
     padding-top: 20px;
 }
