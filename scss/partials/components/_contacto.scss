@@ -31,14 +31,15 @@
     padding: 20px;    
 
     h3 {
-        @include mixins.font-style(0.75rem, 700);
+        font-size: variables.$font-size-h4-p;
+        font-weight: 700;
         text-align: center;
         margin: 10px 0 5px;
         color: variables.$text-color;
     }
 
     p {
-        font-size: 0.95rem;
+        font-size: variables.$font-size-h4-p;
         text-align: center;
         color: variables.$text-color;
         margin: 0;

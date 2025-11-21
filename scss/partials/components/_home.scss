@@ -26,16 +26,18 @@ main {
     text-align: right;
 
     h1 {
-        @include mixins.font-style(2.5rem, 600);
+        font-size: variables.$font-size-h1;
+        font-weight: 600;
     }
 
     h2 {
-        @include mixins.font-style(1.5rem, 500);
+        font-size: variables.$font-size-h2-h3;
+        font-weight: 500;
     }
 
     p {
         margin-top: 8px;
-        font-size: 1rem;
+        font-size: variables.$font-size-h4-p;
         max-width: 550px;
         margin-left: auto;
     }
@@ -45,7 +47,8 @@ main {
     margin: 32px 0;
 
     h3 {
-        @include mixins.font-style(1.5rem, 500);
+        font-size: variables.$font-size-h2-h3;
+        font-weight: 500;
         text-align: center;
     }
 }
@@ -65,7 +68,7 @@ main {
     flex-direction: column;
 
     h4 {
-        font-size: 1rem;
+        font-size: variables.$font-size-h4-p;
     }
 
     div {
