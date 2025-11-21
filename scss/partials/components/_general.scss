@@ -1,0 +1,74 @@
+@use "../utilities/mixins";
+@use "../utilities/variables";
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-size: variables.$font-size-h2-h3;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+}
+
+.contacto-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto 60px auto;
+}
+
+.info-card {
+    @include mixins.flex(column, center, center);
+    text-align: center;
+    box-shadow: 0 4px 12px variables.$shadow-color;
+    border-radius: 8px;
+    padding: 20px;    
+
+    h3 {
+        @include mixins.font-style(0.75rem, 700);
+        text-align: center;
+        margin: 10px 0 5px;
+        color: variables.$text-color;
+    }
+
+    p {
+        font-size: 0.95rem;
+        text-align: center;
+        color: variables.$text-color;
+        margin: 0;
+    }
+
+    img {
+        @include mixins.size-img(35px, 35px);
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.social-links {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+    align-items: center;
+
+    img {
+        @include mixins.size-img(20px, 20px);
+    }
+}
+
+.behance-icon-card {
+
+    img {
+        @include mixins.size-img(20px, 25px);
+        margin-top: 5px;
+    }
+}

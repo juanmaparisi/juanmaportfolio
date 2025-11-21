@@ -114,4 +114,74 @@ footer {
   height: 35px;
 }
 
+.contacto {
+  display: flex;
+  flex-direction: column;
+}
+.contacto h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.contacto-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto 60px auto;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 12px #A9A9A9;
+  border-radius: 8px;
+  padding: 20px;
+}
+.info-card h3 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px 0 5px;
+  color: #333333;
+}
+.info-card p {
+  font-size: 0.95rem;
+  text-align: center;
+  color: #333333;
+  margin: 0;
+}
+.info-card img {
+  width: 35px;
+  height: 35px;
+}
+.info-card a {
+  text-decoration: none;
+}
+
+.social-links {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  gap: 10px;
+  padding: 0;
+  align-items: center;
+}
+.social-links img {
+  width: 20px;
+  height: 20px;
+}
+
+.behance-icon-card img {
+  width: 20px;
+  height: 25px;
+  margin-top: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
