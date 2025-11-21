@@ -82,36 +82,107 @@ header {
   list-style: none;
 }
 
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+main {
+  margin: 32px;
+}
+
+.intro {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
   align-items: center;
-  padding: 10px 30px;
-  background-color: #2A8E2E;
+  border-bottom: 1px solid #333333;
+}
+.intro figure img {
+  max-width: 80%;
+  filter: grayscale(100%);
 }
 
-.footer-firma p {
-  color: #ffffff;
-  font-size: 15px;
-  margin-bottom: 0;
-}
-
-.redes-sociales {
-  list-style: none;
+.intro-perfil {
   display: flex;
-  gap: 10px;
-  margin-bottom: 0;
+  flex-direction: column;
+  text-align: right;
 }
-.redes-sociales a img {
-  width: 30px;
-  height: 30px;
-  filter: invert(100%);
+.intro-perfil h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.intro-perfil h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.intro-perfil p {
+  margin-top: 8px;
+  font-size: 1rem;
+  max-width: 550px;
+  margin-left: auto;
 }
 
-.behance-icon a img {
-  width: 35px;
-  height: 35px;
+.experiencia {
+  width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  box-shadow: 0 4px 12px #A9A9A9;
+}
+
+.titulo-exp {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.trayectoria {
+  padding-top: 20px;
+}
+.trayectoria h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.habilidades-contenedor {
+  padding-top: 20px;
+}
+.habilidades-contenedor h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.categoria-habilidad {
+  margin-top: 25px;
+}
+.categoria-habilidad h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  border-left: 5px solid #2A8E2E;
+  padding-left: 8px;
+}
+
+.lineadetiempo-item {
+  margin-top: 25px;
+}
+.lineadetiempo-item h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  border-left: 5px solid #2A8E2E;
+  padding-left: 8px;
+}
+.lineadetiempo-item p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.lineadetiempo-item ul ul {
+  padding-left: 20px;
+  margin: 8px 0;
+}
+.lineadetiempo-item ul ul li {
+  list-style: none;
+  margin-bottom: 5px;
 }
 
 .contacto {
@@ -204,69 +275,36 @@ footer {
   font-weight: 600;
 }
 
-.experiencia {
-  width: 1000px;
-  margin: 40px auto;
-  padding: 30px;
-  box-shadow: 0 4px 12px #A9A9A9;
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #2A8E2E;
 }
 
-.titulo-exp {
-  font-size: 1.5rem;
-  font-weight: 500;
-  text-align: center;
+.footer-firma p {
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 0;
 }
 
-.trayectoria {
-  padding-top: 20px;
-}
-.trayectoria h2 {
-  font-size: 1.5rem;
-  font-weight: 500;
-  padding-bottom: 10px;
-}
-
-.habilidades-contenedor {
-  padding-top: 20px;
-}
-.habilidades-contenedor h2 {
-  font-size: 1.5rem;
-  font-weight: 500;
-  padding-bottom: 10px;
-}
-
-.categoria-habilidad {
-  margin-top: 25px;
-}
-.categoria-habilidad h3 {
-  font-size: 1.2rem;
-  font-weight: 500;
-  margin-bottom: 10px;
-  border-left: 5px solid #2A8E2E;
-  padding-left: 8px;
-}
-
-.lineadetiempo-item {
-  margin-top: 25px;
-}
-.lineadetiempo-item h3 {
-  font-size: 1.2rem;
-  font-weight: 500;
-  margin-bottom: 10px;
-  border-left: 5px solid #2A8E2E;
-  padding-left: 8px;
-}
-.lineadetiempo-item p {
-  font-size: 1rem;
-  margin-bottom: 5px;
-}
-.lineadetiempo-item ul ul {
-  padding-left: 20px;
-  margin: 8px 0;
-}
-.lineadetiempo-item ul ul li {
+.redes-sociales {
   list-style: none;
-  margin-bottom: 5px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0;
+}
+.redes-sociales a img {
+  width: 30px;
+  height: 30px;
+  filter: invert(100%);
+}
+
+.behance-icon a img {
+  width: 35px;
+  height: 35px;
 }
 
 /*# sourceMappingURL=style.css.map */

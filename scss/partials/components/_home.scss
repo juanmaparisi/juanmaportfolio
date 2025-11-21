@@ -1,0 +1,42 @@
+@use "../utilities/mixins";
+@use "../utilities/variables";
+
+main {
+    margin: 32px;
+}
+
+.intro {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: center;
+    border-bottom: 1px solid variables.$text-color;
+
+    figure img {
+        max-width: 80%;
+        filter: grayscale(100%);
+    }
+}
+
+.intro-perfil {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+    h1 {
+        @include mixins.font-style(2.5rem, 600);
+    }
+
+    h2 {
+        @include mixins.font-style(1.5rem, 500);
+    }
+
+    p {
+        margin-top: 8px;
+        font-size: 1rem;
+        max-width: 550px;
+        margin-left: auto;
+    }
+}

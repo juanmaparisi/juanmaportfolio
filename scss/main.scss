@@ -4,10 +4,10 @@
 
 //COMPONENTS
 @use "./partials/components/header";
-@use "./partials/components/footer";
-@use "./partials/components/cards";
-@use "./partials/components/contacto";
-@use "./partials/components/experiencia";
+@use "./partials/components/home";
 @use "./partials/components/mi-portfolio";
 @use "./partials/components/que-ofrezco";
+@use "./partials/components/experiencia";
+@use "./partials/components/contacto";
+@use "./partials/components/footer";
 @use "./partials/components/mediaqueries";
