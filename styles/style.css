@@ -93,7 +93,6 @@ main {
   grid-template-columns: 1fr 1fr;
   gap: 32px;
   align-items: center;
-  border-bottom: 1px solid #333333;
 }
 .intro figure img {
   max-width: 80%;
@@ -112,6 +111,7 @@ main {
 .intro-perfil h2 {
   font-size: 1.5rem;
   font-weight: 500;
+  text-align: right;
 }
 .intro-perfil p {
   margin-top: 8px;
@@ -121,7 +121,7 @@ main {
 }
 
 .habilidades {
-  margin: 32px 0;
+  margin: 40px 0;
 }
 .habilidades h3 {
   font-size: 1.5rem;
@@ -129,32 +129,49 @@ main {
   text-align: center;
 }
 
-.lista-habilidades {
-  width: 90%;
-  list-style: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.modulos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  gap: 16px;
-  margin: 32px auto 0 auto;
+  width: 90%;
+  gap: 20px;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px #A9A9A9;
+}
+.modulos h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  color: #333333;
+}
+.modulos p {
+  font-size: 1rem;
+  text-align: center;
+  color: #333333;
 }
 
-.habilidad-item {
+.modulo-item {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0 10px;
 }
-.habilidad-item h4 {
-  font-size: 1rem;
+.modulo-item img {
+  width: 30px;
+  height: 30px;
 }
-.habilidad-item div {
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 8px;
-}
-.habilidad-item figure img {
-  width: 90%;
-  border-radius: 8px;
+
+.portfolio-h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .que-ofrezco {
@@ -197,25 +214,23 @@ main {
   color: #333333;
 }
 
-.experiencia {
-  width: 1000px;
-  margin: 40px auto;
-  padding: 30px;
-  box-shadow: 0 4px 12px #A9A9A9;
-}
-
 .titulo-exp {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .trayectoria {
   padding-top: 20px;
+  box-shadow: 0 4px 12px #A9A9A9;
+  width: 1000px;
+  margin: auto;
+  padding: 30px;
 }
 .trayectoria h2 {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   padding-bottom: 10px;
 }
 
@@ -337,7 +352,7 @@ main {
   border-radius: 8px;
   box-shadow: 0 4px 12px #A9A9A9;
   width: 100%;
-  max-width: 500px;
+  max-width: 700px;
   margin: 20px auto;
 }
 
