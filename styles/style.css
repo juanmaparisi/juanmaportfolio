@@ -27,6 +27,13 @@ header {
   margin: 0;
 }
 
+.logo-animado {
+  animation-duration: 1s;
+}
+.logo-animado:hover {
+  animation-name: pulse;
+}
+
 .navbar-expand-lg .navbar-nav {
   gap: 10px;
 }
