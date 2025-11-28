@@ -60,7 +60,74 @@ header {
     }
 }
 
-.lenguajes {
+.boton-hablemos {
+        background-color: variables.$second-color;
+        color: variables.$white;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 8px 50px;
+        border-radius: 5px;
+        margin: 0 15px;
+
+        &:hover {
+            background-image: linear-gradient(55deg, variables.$main-color, variables.$second-color);
+        }
+}
+
+.selector-idioma {
+        display: flex;
+        align-items: center;
+        margin: 0 15px;
+        cursor: pointer;
+        position: relative;
+
+        .globo {
+            @include mixins.size-img(20px, 20px);
+            filter: invert(100%);
+
+            &:hover {
+                opacity: 0.8;
+            }
+        } 
+        
+        &:hover .opciones-idioma {
+        display: block; 
+    }
+}
+
+.opciones-idioma {
+        display: none; 
+        position: absolute;
+        top: 100%; 
+        right: 0;
+        list-style: none;
+        margin: 0;
+        padding: 10px;
+        background-color: variables.$black;
+        border: 1px solid variables.$main-color; 
+        border-radius: 5px;
+
+        li {
+            padding: 5px 5px;
+            
+            a {
+                color: variables.$white;
+                text-decoration: none;
+                font-size: 10px;
+                display: block;
+
+                &:hover {
+                    color: variables.$main-color; 
+                }
+            }
+        }
+    
+    &:hover .opciones-idioma {
+        display: block;
+    }
+}
+
+ .lenguajes {
     background-color: variables.$text-color;
     display: flex;
     padding: 15px 15px 15px 50px;
@@ -91,3 +158,4 @@ header {
 
 
 
+ 

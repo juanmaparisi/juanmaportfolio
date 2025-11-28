@@ -63,6 +63,66 @@ header {
   font-size: 20px;
 }
 
+.boton-hablemos {
+  background-color: #80881C;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 50px;
+  border-radius: 5px;
+  margin: 0 15px;
+}
+.boton-hablemos:hover {
+  background-image: linear-gradient(55deg, #2A8E2E, #80881C);
+}
+
+.selector-idioma {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+  cursor: pointer;
+  position: relative;
+}
+.selector-idioma .globo {
+  width: 20px;
+  height: 20px;
+  filter: invert(100%);
+}
+.selector-idioma .globo:hover {
+  opacity: 0.8;
+}
+.selector-idioma:hover .opciones-idioma {
+  display: block;
+}
+
+.opciones-idioma {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  background-color: #000000;
+  border: 1px solid #2A8E2E;
+  border-radius: 5px;
+}
+.opciones-idioma li {
+  padding: 5px 5px;
+}
+.opciones-idioma li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 10px;
+  display: block;
+}
+.opciones-idioma li a:hover {
+  color: #2A8E2E;
+}
+.opciones-idioma:hover .opciones-idioma {
+  display: block;
+}
+
 .lenguajes {
   background-color: #333333;
   display: flex;
