@@ -45,7 +45,7 @@
                     <a href="../pages/contacto.html" class="boton-hablemos boton-invisible">Hablemos</a>
                 </div>
                 <div class="selector-idioma">
-                    <img class="globo" src="../pages/assets/img/pngwing.com.png">
+                    <img class="globo" src="../pages/assets/img/world.png">
                     <ul class="opciones-idioma"> 
                         <li><a href="#" class="idioma-link">Español</a></li> 
                         <li><a href="#" class="idioma-link">English</a></li> 
@@ -63,14 +63,14 @@
 
             <div class="contacto-cards">
                 <article class="info-card">
-                    <img src="https://placehold.co/50x50" alt="Icono de Ubicación">
+                    <img src="./assets/img/ubicacion.png" alt="Icono de Ubicación">
                     <h3>UBICACION</h3>
                     <p>Buenos Aires, Argentina</p>
                 </article>
                 
                 <article class="info-card">
                     <a href="mailto:tu.jmparisi13@gmail.com">
-                        <img src="https://placehold.co/50x50" alt="Icono de correo electrónico">
+                        <img src="./assets/img/mail.png" alt="Icono de correo electrónico">
                         <h3>EMAIL</h3>
                         <p>jmparisi13@gmail.com</p>
                     </a>
@@ -78,14 +78,14 @@
 
                 <article class="info-card">
                     <a href="https://wa.me/5491155554444" target="_blank">
-                        <img src="https://placehold.co/50x50" alt="Icono de teléfono">
+                        <img src="./assets/img/telefono.png" alt="Icono de teléfono">
                         <h3>TELEFONO</h3>
                         <p>+54 9 11 5589-4144</p>
                     </a>
                 </article>                
 
                 <article class="info-card">
-                    <img src="https://placehold.co/50x50" alt="Icono de redes sociales">
+                    <img class="redes-icon" src="./assets/img/redes.png" alt="Icono de redes sociales">
                     <h3>REDES SOCIALES</h3>
                     <ul class="social-links">
                         <li>
@@ -103,16 +103,64 @@
             </div>
         </section>
         <section class="formulario">
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Mensaje o Consulta</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div class="header-formulario">
+                <h2>Envia tu Consulta</h2>
+                <p>Completa el formulario y te responderemos en 24/48 horas</p>
             </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-            </div>
-            <button type="submit" class="btn btn-success">Solicitar contacto</button>
-        </section> 
+
+            <form class="row g-3"> 
+        
+                <div class="col-md-6 mb-3">
+                    <label for="inputNombre" class="form-label">Nombre completo *</label>
+                    <input type="text" class="form-control" id="inputNombre" placeholder="Tu nombre" required>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="inputCorreo" class="form-label">Correo electrónico *</label>
+                    <input type="email" class="form-control" id="inputCorreo" placeholder="tu@email.com" required>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="inputTelefono" class="form-label">Teléfono</label>
+                    <input type="tel" class="form-control" id="inputTelefono" placeholder="+54 9 1112345678">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="selectContacto" class="form-label">Preferencia de contacto</label>
+                    <select id="selectContacto" class="form-select">
+                        <option selected>Correo electrónico</option>
+                        <option>WhatsApp</option>
+                    </select>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="inputAsunto" class="form-label">Asunto *</label>
+                    <input type="text" class="form-control" id="inputAsunto" placeholder="Asunto de tu consulta" required>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="selectPlazo" class="form-label">Plazo del proyecto</label>
+                    <select id="selectPlazo" class="form-select">
+                        <option selected>Selecciona un plazo</option>
+                        <option>Menos de 1 mes</option>
+                        <option>1 - 3 meses</option>
+                        <option>Más de 3 meses</option>
+                    </select>
+                </div>
+
+                <div class="col-12 mb-3">
+                    <label for="textareaMensaje" class="form-label">Mensaje *</label>
+                    <textarea class="form-control" id="textareaMensaje" rows="4" placeholder="Cuéntanos sobre tu proyecto o consulta..." required></textarea>
+                    <small class="form-text text-muted">Mínimo 10 caracteres</small>
+                </div>
+        
+                <div class="col-12">
+                    <button type="submit" class="btn-submit">Enviar Mensaje
+                    </button>
+                </div>
+            </form>
+        </section>
+        
     </main>
     <footer>
         <div class="footer-firma">

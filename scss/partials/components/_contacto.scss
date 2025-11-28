@@ -53,11 +53,15 @@
     }
 
     img {
-        @include mixins.size-img(35px, 35px);
+        @include mixins.size-img(25px, 30px);
     }
 
     a {
         text-decoration: none;
+    }
+
+    .redes-icon {
+        filter: grayscale(100);
     }
 }
 
@@ -90,21 +94,37 @@
     border-radius: 8px;
     box-shadow: 0 4px 12px variables.$shadow-color;
     width: 100%;
-    max-width: 700px;
+    max-width: 1000px;
     margin: 20px auto;
+}
+
+.header-formulario {
+    text-align: center;
+    margin-bottom: 40px;
+
+    h2 {
+        font-size: variables.$font-size-h2-h3;
+    }
+
+    p {
+        font-size: variables.$font-size-h4-p;
+    }
 }
 
 .form-label {
     font-weight: 600;
 }
 
-.btn-success {
+.btn-submit {
     width: 100%;
     padding: 10px;
     font-weight: 600;
     background-color: variables.$second-color;
+    border-radius: 8px;
+    border: none;
 
     &:hover {
         background-image: linear-gradient(55deg, variables.$main-color, variables.$second-color);
+        opacity: 0.9;
     }
 }

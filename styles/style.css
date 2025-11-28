@@ -373,11 +373,14 @@ main {
   margin: 0;
 }
 .info-card img {
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 30px;
 }
 .info-card a {
   text-decoration: none;
+}
+.info-card .redes-icon {
+  filter: grayscale(100);
 }
 
 .social-links {
@@ -405,22 +408,36 @@ main {
   border-radius: 8px;
   box-shadow: 0 4px 12px #A9A9A9;
   width: 100%;
-  max-width: 700px;
+  max-width: 1000px;
   margin: 20px auto;
+}
+
+.header-formulario {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.header-formulario h2 {
+  font-size: 1.5rem;
+}
+.header-formulario p {
+  font-size: 1rem;
 }
 
 .form-label {
   font-weight: 600;
 }
 
-.btn-success {
+.btn-submit {
   width: 100%;
   padding: 10px;
   font-weight: 600;
   background-color: #80881C;
+  border-radius: 8px;
+  border: none;
 }
-.btn-success:hover {
+.btn-submit:hover {
   background-image: linear-gradient(55deg, #2A8E2E, #80881C);
+  opacity: 0.9;
 }
 
 footer {
