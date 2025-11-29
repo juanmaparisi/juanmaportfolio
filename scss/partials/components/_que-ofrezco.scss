@@ -48,3 +48,49 @@
         color: variables.$text-color;
     }
 }
+
+.porque-elegirnos {
+    margin: 60px 0;
+
+    h3 {
+        font-size: variables.$font-size-h2-h3;
+        font-weight: 500;
+        text-align: center;
+    }    
+
+    p {
+        font-size: variables.$font-size-h4-p;
+        text-align: center;        
+    }
+}
+
+.modulos-pq-elegirnos {
+    @include mixins.flex(row, center, center);
+    width: 90%;
+    gap: 20px;
+    padding: 20px;
+    margin: 10px auto;
+
+    h4 {
+        font-size: variables.$font-size-h4-p;
+        font-weight: 600;
+        text-align: center;
+        color: variables.$text-color;
+    }
+
+    p {
+        font-size: variables.$font-size-h4-p;
+        text-align: center;
+        color: variables.$text-color;
+    }
+}
+
+.modulo-item {
+    @include mixins.flex(column, center, center); 
+    gap: 20px;   
+    padding: 0 50px;
+
+    img {
+        @include mixins.size-img(30px, 30px);        
+    }
+}
