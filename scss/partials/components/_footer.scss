@@ -2,9 +2,33 @@
 @use "../utilities/variables";
 
 footer {
-    @include mixins.flex(row, space-between, center);
-    padding: 10px 30px;
+    @include mixins.flex(column, space-between, center);
     background-color: variables.$main-color;
+}
+
+.footer-seccion-superior {
+    width: 100%;
+    padding: 30px 60px 0 60px;
+    @include mixins.flex(row, space-between, center);    
+    border-bottom: 1px solid variables.$second-hover;
+    
+    h2 {
+        color: variables.$white;
+        font-weight: 700;
+        font-size: variables.$font-size-h2-h3;
+        margin-bottom: 5px;
+    }
+    
+    p {
+        color: variables.$white;
+        font-size: variables.$font-size-h4-p;
+        opacity: 0.8;
+    }
+}
+
+.footer-seccion-inferior {
+    @include mixins.flex(row, space-between, center);
+    padding: 15px 30px;
 }
 
 .footer-firma {

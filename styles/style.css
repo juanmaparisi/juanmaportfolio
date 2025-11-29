@@ -304,6 +304,8 @@ main {
   gap: 20px;
   padding: 20px;
   margin: 10px auto;
+  border: 0.5px solid #80881C;
+  border-radius: 8px;
 }
 .modulos-pq-elegirnos h4 {
   font-size: 1rem;
@@ -536,7 +538,7 @@ main {
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 15px;
-  border: 0.5px solid #000000;
+  border: 0.5px solid #80881C;
 }
 .faq-card h3 {
   font-size: 1rem;
@@ -585,7 +587,7 @@ main {
   width: 100%;
   padding: 10px;
   font-weight: 600;
-  background-color: #2A8E2E;
+  background-color: #80881C;
   color: #ffffff;
   border-radius: 8px;
   border: none;
@@ -596,11 +598,39 @@ main {
 
 footer {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2A8E2E;
+}
+
+.footer-seccion-superior {
+  width: 100%;
+  padding: 30px 60px 0 60px;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 30px;
-  background-color: #2A8E2E;
+  border-bottom: 1px solid #D8E090;
+}
+.footer-seccion-superior h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+.footer-seccion-superior p {
+  color: #ffffff;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.footer-seccion-inferior {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
 }
 
 .footer-firma p {

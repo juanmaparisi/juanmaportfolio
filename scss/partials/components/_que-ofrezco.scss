@@ -64,12 +64,16 @@
     }
 }
 
+//SECCION PQ ELEGIRNOS
+
 .modulos-pq-elegirnos {
     @include mixins.flex(row, center, center);
     width: 90%;
     gap: 20px;
     padding: 20px;
     margin: 10px auto;
+    border: 0.5px solid variables.$second-color;
+    border-radius: 8px;
 
     h4 {
         font-size: variables.$font-size-h4-p;
