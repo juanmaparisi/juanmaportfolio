@@ -253,6 +253,148 @@
 
 }
 
+//PORFOLIO
 
+//media 890 a 1099
+
+@media (min-width: 890px) and (max-width: 1099px) {
+
+    .porque-elegirnos {
+
+        h3 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+
+    .modulos-pq-elegirnos {
+        gap: 10px;
+        padding: 10px;
+
+        .modulo-item {
+            padding: 20px;
+
+            p {
+                font-size: 0.7rem;
+            }
+        }
+    }
+}
+
+
+//@media 768 a 890
+
+@media (min-width: 768px) and (max-width: 890px) {
+
+    .porque-elegirnos {
+
+        h3 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+
+    .modulos {
+        gap: 0;
+
+        .modulo-item {
+            padding: 5px;
+
+            p {
+                font-size: 0.7rem;
+            }
+        }
+    }
+}
+
+
+//media 768 a 1099
+
+@media (min-width: 768px) and (max-width: 1099px) {
+
+    .card-habilidad {
+
+        h3 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 0.7rem;
+        }
+    }  
+
+}
+
+//media 360 a 768
+
+@media (min-width: 360px) and (max-width: 768px) {
+
+    .que-ofrezco {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 80%;
+
+        h2 {
+            font-size: 1.2rem;
+        }
+
+        .card-habilidad {
+            gap: 5px;
+            margin: 10px 30px;
+            padding: 20px 40px;
+            min-height: 200px;
+
+            p {
+                font-size: 0.7rem;
+            }
+        }
+
+        h3 {
+            font-size: 1rem;
+        }
+    }
+
+    .modulos-pq-elegirnos {
+        flex-direction: column;
+        width: 70%;
+
+        .modulo-item {
+            padding: 0;
+
+            img {
+                width: 19px;
+                height: 19px;
+            }
+
+            h4 {
+                font-size: 0.8rem;
+                margin: 0;
+            }
+
+            p {
+                font-size: 0.7rem;
+            }
+
+        }
+    }
+
+    .porque-elegirnos {
+
+        h3 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 0.7rem;
+        }
+    }
+}
 
 

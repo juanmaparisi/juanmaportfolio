@@ -238,12 +238,6 @@ main {
   margin-right: auto;
 }
 
-.carousel.slide .carousel-inner {
-  height: 500px;
-  width: 100%;
-  display: inline-grid;
-}
-
 .carousel-item .active {
   text-align: center;
 }
@@ -275,19 +269,9 @@ main {
   margin-right: 5px;
 }
 
-.carousel-caption {
-  width: 300px;
-  height: 100px;
-  margin: 0 auto;
-  bottom: 11rem;
-  text-align: center;
-  background-color: #D8E090;
-  border: 2px solid #80881C;
-  border-radius: 8px;
-}
 .carousel-caption h3 {
   margin-bottom: 0.1rem;
-  color: #000000;
+  color: #ffffff;
 }
 .carousel-caption h4 {
   margin-bottom: 0.1rem;
@@ -875,6 +859,96 @@ footer {
   }
   .descubrir-portfolio {
     font-size: 0.8rem;
+  }
+}
+@media (min-width: 890px) and (max-width: 1099px) {
+  .porque-elegirnos h3 {
+    font-size: 1rem;
+  }
+  .porque-elegirnos p {
+    font-size: 0.8rem;
+  }
+  .modulos-pq-elegirnos {
+    gap: 10px;
+    padding: 10px;
+  }
+  .modulos-pq-elegirnos .modulo-item {
+    padding: 20px;
+  }
+  .modulos-pq-elegirnos .modulo-item p {
+    font-size: 0.7rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 890px) {
+  .porque-elegirnos h3 {
+    font-size: 1rem;
+  }
+  .porque-elegirnos p {
+    font-size: 0.8rem;
+  }
+  .modulos {
+    gap: 0;
+  }
+  .modulos .modulo-item {
+    padding: 5px;
+  }
+  .modulos .modulo-item p {
+    font-size: 0.7rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1099px) {
+  .card-habilidad h3 {
+    font-size: 1rem;
+  }
+  .card-habilidad p {
+    font-size: 0.7rem;
+  }
+}
+@media (min-width: 360px) and (max-width: 768px) {
+  .que-ofrezco {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .que-ofrezco h2 {
+    font-size: 1.2rem;
+  }
+  .que-ofrezco .card-habilidad {
+    gap: 5px;
+    margin: 10px 30px;
+    padding: 20px 40px;
+    min-height: 200px;
+  }
+  .que-ofrezco .card-habilidad p {
+    font-size: 0.7rem;
+  }
+  .que-ofrezco h3 {
+    font-size: 1rem;
+  }
+  .modulos-pq-elegirnos {
+    flex-direction: column;
+    width: 70%;
+  }
+  .modulos-pq-elegirnos .modulo-item {
+    padding: 0;
+  }
+  .modulos-pq-elegirnos .modulo-item img {
+    width: 19px;
+    height: 19px;
+  }
+  .modulos-pq-elegirnos .modulo-item h4 {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  .modulos-pq-elegirnos .modulo-item p {
+    font-size: 0.7rem;
+  }
+  .porque-elegirnos h3 {
+    font-size: 1rem;
+  }
+  .porque-elegirnos p {
+    font-size: 0.7rem;
   }
 }
 
