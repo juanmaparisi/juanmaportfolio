@@ -228,8 +228,72 @@ main {
 }
 
 .portfolio-h2 {
-  color: red;
+  font-size: 1.5rem;
+  font-weight: 600;
   text-align: center;
+  margin-bottom: 40px;
+}
+
+.carousel.slide {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel.slide .carousel-inner {
+  height: 500px;
+  width: 100%;
+  display: inline-grid;
+}
+
+.carousel-item .active {
+  text-align: center;
+}
+
+.carousel-item .img-portfolio-carrusel {
+  width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #80881C;
+  border-radius: 8px;
+}
+
+.contenedor-enlace {
+  text-align: center;
+}
+.contenedor-enlace .enlace-superior {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #2A8E2E;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contenedor-enlace .enlace-superior .imagen-enlace {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.carousel-caption {
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+  bottom: 11rem;
+  text-align: center;
+  background-color: #D8E090;
+  border: 2px solid #80881C;
+  border-radius: 8px;
+}
+.carousel-caption h3 {
+  margin-bottom: 0.1rem;
+  color: #000000;
+}
+.carousel-caption h4 {
+  margin-bottom: 0.1rem;
+  color: #A9A9A9;
 }
 
 .que-ofrezco {
