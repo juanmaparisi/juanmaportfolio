@@ -8,6 +8,20 @@
   font-family: "Raleway", sans-serif;
 }
 
+.info-card, .formulario, .card-habilidad {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px #A9A9A9;
+  padding: 20px;
+}
+
+.redes-sociales, .social-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
 header {
   width: 100%;
 }
@@ -50,7 +64,7 @@ header {
 }
 
 .nav-item:hover {
-  background-color: #D8E090;
+  background-color: #e2e9ae;
   color: #333333;
   border-radius: 8px;
 }
@@ -191,6 +205,7 @@ main {
   margin: 10px auto;
   border-radius: 8px;
   box-shadow: 0 4px 12px #A9A9A9;
+  background-color: #e2e9ae;
 }
 .modulos h4 {
   font-size: 1rem;
@@ -299,9 +314,6 @@ main {
   padding: 20px;
   margin: 10px;
   min-height: 400px;
-  border: 1px solid #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px #A9A9A9;
   transition: all 0.3s ease-out;
 }
 .card-habilidad:hover {
@@ -349,6 +361,7 @@ main {
   margin: 10px auto;
   border: 0.5px solid #80881C;
   border-radius: 8px;
+  background-color: #e2e9ae;
 }
 .modulos-pq-elegirnos h4 {
   font-size: 1rem;
@@ -508,9 +521,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  box-shadow: 0 4px 12px #A9A9A9;
-  border-radius: 8px;
-  padding: 20px;
+  background-color: #e2e9ae;
 }
 .info-card h3 {
   font-size: 1rem;
@@ -537,11 +548,6 @@ main {
 }
 
 .social-links {
-  display: flex;
-  margin: 0;
-  list-style: none;
-  gap: 10px;
-  padding: 0;
   align-items: center;
 }
 .social-links img {
@@ -603,9 +609,6 @@ main {
 
 .formulario {
   background-color: #ffffff;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px #A9A9A9;
   width: 100%;
   max-width: 1000px;
   margin: 20px auto;
@@ -654,7 +657,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: 0;
-  border-bottom: 1px solid #D8E090;
+  border-bottom: 1px solid #e2e9ae;
 }
 .footer-seccion-superior h2 {
   color: #ffffff;
@@ -684,9 +687,6 @@ footer {
 
 .redes-sociales {
   list-style: none;
-  display: flex;
-  gap: 10px;
-  margin-bottom: 0;
 }
 .redes-sociales a img {
   width: 30px;

@@ -43,9 +43,7 @@ footer {
 
 .redes-sociales {
     list-style: none;
-    display: flex;
-    gap: 10px;
-    margin-bottom: 0;
+    @extend %social-lista;
 
     a img {
         @include mixins.size-img(30px, 30px);

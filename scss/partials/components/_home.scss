@@ -74,6 +74,7 @@ main {
     margin: 10px auto;
     border-radius: 8px;
     box-shadow: 0 4px 12px variables.$shadow-color;
+    background-color: variables.$second-hover;
 
     h4 {
         font-size: variables.$font-size-h4-p;

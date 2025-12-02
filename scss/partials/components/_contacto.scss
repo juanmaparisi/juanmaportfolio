@@ -34,9 +34,8 @@
 .info-card {
     @include mixins.flex(column, center, center);
     text-align: center;
-    box-shadow: 0 4px 12px variables.$shadow-color;
-    border-radius: 8px;
-    padding: 20px;    
+    @extend %card-base;    
+    background-color: variables.$second-hover;
 
     h3 {
         font-size: variables.$font-size-h4-p;
@@ -67,11 +66,7 @@
 }
 
 .social-links {
-    display: flex;
-    margin: 0;
-    list-style: none;
-    gap: 10px;
-    padding: 0;
+    @extend %social-lista;
     align-items: center;
 
     img {
@@ -143,9 +138,7 @@
 
 .formulario {
     background-color: variables.$white;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px variables.$shadow-color;
+    @extend %card-base;
     width: 100%;
     max-width: 1000px;
     margin: 20px auto;

@@ -1,7 +1,3 @@
-//@use.... en la carpeta correspondiente a usarlo
-
-//h1 { @include mixins flex (valor, valor, valor) }
-
 @mixin flex ($direction, $justify, $align) {
     display: flex;
     flex-direction: $direction;
