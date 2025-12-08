@@ -31,7 +31,7 @@
         }
 
     img {
-        @include mixins.size-img(35px, 35px);
+        @include mixins.size-img(30px, 30px);
         filter: grayscale(100);
     }
 

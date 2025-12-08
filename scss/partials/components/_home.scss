@@ -96,7 +96,8 @@ main {
     padding: 0 10px;
 
     img {
-        @include mixins.size-img(30px, 30px);        
+        @include mixins.size-img(30px, 30px); 
+        filter: grayscale(100);       
     }
 }
 

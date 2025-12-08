@@ -129,8 +129,7 @@
     }
 
     img {
-        @include mixins.size-img(17px, 17px);
-        margin-right: 10px;
+        @include mixins.size-img(25px, 25px);
     }
 }
 

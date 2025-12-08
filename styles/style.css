@@ -103,8 +103,8 @@ header {
   position: relative;
 }
 .selector-idioma .globo {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 .selector-idioma .globo:hover {
   opacity: 0.8;
@@ -230,6 +230,7 @@ main {
 .modulo-item img {
   width: 30px;
   height: 30px;
+  filter: grayscale(100);
 }
 
 .descubrir-portfolio {
@@ -279,8 +280,8 @@ main {
   margin-bottom: 10px;
 }
 .contenedor-enlace .enlace-superior .imagen-enlace {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   margin-right: 5px;
 }
 
@@ -321,8 +322,8 @@ main {
   box-shadow: 0 8px 16px;
 }
 .card-habilidad img {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   filter: grayscale(100);
 }
 .card-habilidad h3 {
@@ -602,9 +603,8 @@ main {
   margin: 0;
 }
 .faq-card img {
-  width: 17px;
-  height: 17px;
-  margin-right: 10px;
+  width: 25px;
+  height: 25px;
 }
 
 .formulario {
