@@ -334,7 +334,7 @@
 
     .que-ofrezco {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         gap: 16px;
         margin: 0 auto;
         width: 95%;        
@@ -533,7 +533,7 @@
     }
 
     .proyectos-descripcion {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         width: 95%;
         margin: 20px auto;
         gap: 16px;
