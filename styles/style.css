@@ -8,6 +8,23 @@
   font-family: "Raleway", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 75px;
+}
+
+section {
+  scroll-margin-top: 85px;
+}
+
+header {
+  width: 100%;
+  z-index: 1050;
+}
+
 .info-card, .formulario, .card-habilidad, .proyectos-descripcion .proyecto-item {
   border-radius: 8px;
   box-shadow: 0 4px 12px #A9A9A9;
@@ -144,13 +161,17 @@ header {
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 
-main {
-  margin: 32px;
+#home {
+  background-color: #ffffff;
+  padding: 50px 32px;
 }
 
+/* main {
+    margin: 32px;
+} */
 .intro {
   width: 90%;
   margin: 0 auto;
@@ -180,7 +201,7 @@ main {
   font-weight: 600;
 }
 .intro-perfil h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
   text-align: right;
 }
@@ -195,7 +216,7 @@ main {
   margin: 40px 0;
 }
 .habilidades h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 500;
   text-align: center;
 }
@@ -248,11 +269,16 @@ main {
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #ffffff;
+}
+
+#portfolio {
+  background-color: #f0f0f0;
+  padding: 50px 32px;
 }
 
 .portfolio-h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
   margin-bottom: 40px;
@@ -298,7 +324,7 @@ body {
   gap: 30px;
 }
 .proyectos-descripcion .portfolio-h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   grid-column: 1/-1;
   text-align: center;
   margin-bottom: 20px;
@@ -343,7 +369,12 @@ body {
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #ffffff;
+}
+
+#que-ofrezco {
+  background-color: #ffffff;
+  padding: 50px 32px;
 }
 
 .que-ofrezco {
@@ -352,7 +383,7 @@ body {
 }
 .que-ofrezco h2 {
   grid-column: 1/4;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
   margin-bottom: 40px;
@@ -379,7 +410,7 @@ body {
   filter: grayscale(100);
 }
 .card-habilidad h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-align: center;
   font-weight: 600;
   color: #333333;
@@ -394,7 +425,7 @@ body {
   margin: 60px 0;
 }
 .porque-elegirnos h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 500;
   text-align: center;
 }
@@ -442,11 +473,16 @@ body {
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #ffffff;
+}
+
+#experiencia {
+  background-color: #f0f0f0;
+  padding: 50px 32px;
 }
 
 .titulo-exp {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
   margin-bottom: 40px;
@@ -454,6 +490,7 @@ body {
 
 .trayectoria {
   padding-top: 20px;
+  background-color: #ffffff;
   box-shadow: 0 4px 12px #A9A9A9;
   width: 80%;
   margin: auto;
@@ -469,7 +506,7 @@ body {
   padding-top: 20px;
 }
 .habilidades-contenedor h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
   padding-bottom: 10px;
 }
@@ -478,7 +515,7 @@ body {
   margin-top: 25px;
 }
 .categoria-habilidad h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 500;
   margin-bottom: 10px;
   border-left: 5px solid #80881C;
@@ -501,7 +538,7 @@ body {
   margin: 60px 0 20px 0;
 }
 .certificaciones h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 500;
   text-align: center;
   margin-bottom: 10px;
@@ -534,6 +571,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #ffffff;
   border: 0.5px solid #80881C;
   border-radius: 8px;
   padding: 30px 10px;
@@ -548,7 +586,12 @@ body {
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #ffffff;
+}
+
+#contacto {
+  background-color: #ffffff;
+  padding: 50px 32px;
 }
 
 .contacto {
@@ -556,13 +599,13 @@ body {
   flex-direction: column;
 }
 .contacto h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
   margin-bottom: 10px;
 }
 .contacto h3 {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 400;
   text-align: center;
   margin-bottom: 40px;
@@ -585,7 +628,7 @@ body {
   background-color: #e2e9ae;
 }
 .info-card h3 {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 700;
   text-align: center;
   margin: 10px 0 5px;
@@ -633,7 +676,7 @@ body {
   margin-bottom: 40px;
 }
 .contenedor-titulo h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
   color: #000000;
   margin-bottom: 5px;
@@ -651,7 +694,7 @@ body {
   border: 0.5px solid #80881C;
 }
 .faq-card h3 {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 10px;
   color: #000000;
@@ -679,7 +722,7 @@ body {
   margin-bottom: 40px;
 }
 .header-formulario h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .header-formulario p {
   font-size: 1rem;
@@ -722,7 +765,7 @@ footer {
 .footer-seccion-superior h2 {
   color: #ffffff;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 5px;
 }
 .footer-seccion-superior p {

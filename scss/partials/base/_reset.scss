@@ -4,3 +4,20 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 75px; 
+}
+
+section {
+    scroll-margin-top: 85px; 
+}
+
+header {
+    width: 100%;
+    z-index: 1050;
+}
